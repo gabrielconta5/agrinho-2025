@@ -50,15 +50,17 @@ nav ul li label {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  padding: 10px 20px;
-  border-radius: 8px;
-  background-color: #264653; /* Cor de fundo dos botões */
+  padding: 12px 25px;  /* Tamanho dos botões */
+  border-radius: 30px;  /* Bordas arredondadas */
+  background-color: #264653;  /* Cor de fundo dos botões */
+  text-align: center;
+  display: inline-block;
 }
 
 nav ul li label:hover {
-  background-color: #e9f5f0; /* Cor de fundo ao passar o mouse */
+  background-color: #e9f5f0;  /* Cor de fundo ao passar o mouse */
   color: #264653;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Sombra ao passar o mouse */
 }
 
 /* Seções */

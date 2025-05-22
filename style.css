@@ -32,7 +32,7 @@ header h1 {
   text-align: center;
 }
 
-/* Navegação */
+/* Navegação - Botões de navegação para as seções (Sobre, Projeto, Contato) */
 nav ul {
   list-style: none;
   display: flex;
@@ -50,22 +50,24 @@ nav ul li label {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  padding: 12px 25px;  /* Tamanho dos botões */
+  padding: 12px 25px;  /* Tamanho maior e confortável para clique */
   border-radius: 30px;  /* Bordas arredondadas */
   background-color: #264653;  /* Cor de fundo dos botões */
   text-align: center;
   display: inline-block;
+  border: 2px solid transparent;  /* Borda inicial invisível */
 }
 
 nav ul li label:hover {
   background-color: #e9f5f0;  /* Cor de fundo ao passar o mouse */
   color: #264653;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Sombra ao passar o mouse */
+  border-color: #2a9d8f;  /* Borda visível ao passar o mouse */
 }
 
 /* Seções */
 section {
-  display: none; /* Esconde todas as seções */
+  display: none; /* Esconde todas as seções inicialmente */
   padding: 60px 0;
   background-color: white;
 }
